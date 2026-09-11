@@ -1,7 +1,7 @@
 FROM ubuntu:latest
 
-RUN sudo apt update
-RUN sudo apt upgrade
+RUN apt update
+RUN apt upgrade
 
 RUN apt-get update && apt-get install -y \
   python3.10 \

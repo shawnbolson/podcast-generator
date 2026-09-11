@@ -1,5 +1,6 @@
 FROM ubuntu:latest
 
+RUN apt-get upgrade & apt-get update
 RUN apt-get update && apt-get install -y \
   python3.14 \
   python3-pip \

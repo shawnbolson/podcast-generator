@@ -1,4 +1,4 @@
-FROM ubuntu:latest
+FROM ubuntu:26.04.1
 
 RUN apt update -y
 RUN apt upgrade -y

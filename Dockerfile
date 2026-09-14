@@ -1,8 +1,5 @@
 FROM ubuntu:26.04
 
-RUN apt update -y
-RUN apt upgrade -y
-
 RUN apt-get update && apt-get install -y \
   python3.10 \
   python3-pip \
